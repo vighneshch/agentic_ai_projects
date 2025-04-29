@@ -6,6 +6,7 @@ from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.newspaper4k import Newspaper4kTools
 from agno.team.team import Team
 from agno.models.groq import Groq
+from agno.playground import Playground, serve_playground_app
 
 # Loading the groq api key
 load_dotenv()
@@ -73,3 +74,8 @@ editor_agent = Team(
 )
 
 editor_agent.print_response("Write an article about latest developments in AI")
+
+app = Playground(agents=[websearch_agent, content_writer_agent,editor_agent]).get_app()
+
+if __name__ == "__main__":
+    serve_playground_app("playground:app", reload=True)
