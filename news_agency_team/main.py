@@ -1,4 +1,5 @@
 # Loading the required libraries
+import os
 from dotenv import load_dotenv
 from agno.agent import Agent
 from agno.tools.duckduckgo import DuckDuckGoTools
@@ -16,13 +17,13 @@ if not groq_api_key:
 websearch_agent = Agent(
     name = "WebSearchAgent",
     role = 'Searches the web for relevant information',
-    model = Groq(id = 'gemma2-9b-it',api_key=groq_api_key)
+    model = Groq(id = 'gemma2-9b-it',api_key=groq_api_key),
     instructions = [
         "Given a topic, first generate a list of 3 search terms related to that topic.",
         "For each search term, search the web and analyze the results.Return the 10 most relevant URLs to the topic.",
         "You are writing for the New York Times, so the quality of the sources is important.",
     ],
-    tools=[DuckDuckGoTools()]
+    tools=[DuckDuckGoTools()],
     add_datetime_to_instructions=True
     )
 
