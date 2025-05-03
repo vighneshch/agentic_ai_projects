@@ -39,4 +39,15 @@ cd 01_news_agency_team
 
 ```bash
 python -m venv venv
+```
+#### For macOS/Linus
+```bash
+source venv/bin/activate  # Activates the virtual environment
+```
+#### For Windows
+```bash
+venv\Scripts\activate  # Activates the virtual environment
+```
+You should now see (venv) at the beginning of your terminal prompt, indicating that the virtual environment is active.
+
 
