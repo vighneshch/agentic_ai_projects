@@ -65,7 +65,7 @@ To run the app and interact with the agents
 ```bash
 python playground.py
 ```
-
+---
 ## 📁 Project Structure
 ```bash
 01_news_agency_team/
