@@ -48,7 +48,7 @@ finance_agent = Agent(
         ReasoningTools(add_name_to_instructions=True),
         save_to_file()
     ],
-    storage=SqliteStorage("finance_agent.db",),
+    storage=SqliteStorage("finance_agent.db",table_name="finance_agent"),
     instruction_template=agent_instruction_template_1,
     show_tool_calls=True,
     add_history_to_messages=True,
