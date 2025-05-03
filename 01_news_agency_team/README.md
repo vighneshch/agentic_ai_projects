@@ -50,4 +50,21 @@ venv\Scripts\activate  # Activates the virtual environment
 ```
 You should now see (venv) at the beginning of your terminal prompt, indicating that the virtual environment is active.
 
+### 3. Install all dependancies
+Install all required dependencies using the following command:
+```bash
+pip install -r requirements.txt
+```
+### 4. Set up Environment Variables
+Create a .env file in the project directory and add your Groq API Key:
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+### 5. Start the playground app
+To run the app and interact with the agents
+```bash
+python playground.py
+```
+
+
 
