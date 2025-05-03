@@ -1,0 +1,17 @@
+# Agno framework and dependencies
+agno==0.5.4
+
+# Groq API for AI model inference
+groq==0.1.2
+
+# For web search functionality
+duckduckgo-search==0.6.0
+
+# Newspaper for article scraping
+newspaper3k==0.2.8
+
+# For managing environment variables
+python-dotenv==0.19.2
+
+# For creating a virtual environment
+virtualenv==20.17.1
