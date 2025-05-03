@@ -35,7 +35,7 @@ def save_to_file(content:str,file_name : str):
 
 # Creating an agent
 finance_agent = Agent(
-    name = 'Finance Analyst'
+    name = "Finance Analyst",
     description='An agent that can analyze financial data and provide insights.',
     model= Groq(id="llama-3.3-70b-versatile"),
     tools = [
