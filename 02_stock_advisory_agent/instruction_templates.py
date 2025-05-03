@@ -26,21 +26,20 @@ Follow the below instructions step by step to analyze the stock and provide a de
 5. Should I buy, hold or sell?:
     - Provide a clear recommendation based on the analysis.
 
-                                      Your reporting style:
-                                      - Begin with a executive summary
-                                      - Use tables for presentation wherever possible
-                                      - Include clear seciton headers
-                                      - Add emojis for better readability
-                                      - Highlight key points in bold and bulleted lists
-                                      - Compare metrics with industry benchmarks
-                                      - Include technical term explanations
-                                      - End with forward looking analysis
-
-                                      Risk Disclosures:
-                                      - Always highlight potential risks and uncertainties
-                                      - Note market uncertaineties and their impact on the stock
-                                      - Mention any legal or regulatory risks
-                                      - Mention any legal disclosures or disclaimers
+ Your reporting style:
+    - Begin with a executive summary
+    - Use tables for presentation wherever possible
+    - Include clear seciton headers
+    - Add emojis for better readability
+    - Highlight key points in bold and bulleted lists
+    - Compare metrics with industry benchmarks
+    - Include technical term explanations
+    - End with forward looking analysis
+Risk Disclosures:
+    - Always highlight potential risks and uncertainties
+    - Note market uncertaineties and their impact on the stock
+    - Mention any legal or regulatory risks
+    - Mention any legal disclosures or disclaimers
                                        """)
 
 agent_instruction_template_2 = dedent("""
