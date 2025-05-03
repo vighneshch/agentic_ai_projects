@@ -55,7 +55,7 @@ content_writer_agent = Agent(
 editor_agent = Team(
     name = "EditorAgent",
     mode = "coordinate",
-    model = Groq(id = 'gemma2-9b-it',api_key=groq_api_key),
+    model = Groq(id = 'llama-3.1-8b-instant',api_key=groq_api_key),
     members = [websearch_agent, content_writer_agent],
     description="You are a senior NYT editor. Given a topic, your goal is to write a NYT worthy article.",
     instructions=[
@@ -74,7 +74,7 @@ editor_agent = Team(
 
 editor_agent.print_response("Write an article about latest developments in AI")
 
-app = Playground(agents=[websearch_agent, content_writer_agent]).get_app()
+app = Playground(agents=[websearch_agent, content_writer_agent],teams=[editor_agent]).get_app()
 
 if __name__ == "__main__":
     serve_playground_app("playground:app", reload=True)
