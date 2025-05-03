@@ -73,5 +73,11 @@ python playground.py
 ├── .env                  # Your environment variables (API key)
 ├── requirements.txt      # List of Python dependencies
 └── README.md             # You are here
-
+```
+---
+## 🙏Credits
+- [Agno](https://github.com/agno-agi/agno)
+- [Groq API](https://groq.com/)
+- [DuckDuckGoTools](https://pypi.org/project/duckduckgo/)
+- [NewsPaper4k](https://github.com/codelucas/newspaper)
 
