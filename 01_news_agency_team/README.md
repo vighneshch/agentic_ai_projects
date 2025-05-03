@@ -66,5 +66,12 @@ To run the app and interact with the agents
 python playground.py
 ```
 
+## 📁 Project Structure
+```bash
+01_news_agency_team/
+├── playground.py         # Main logic: agent and team setup
+├── .env                  # Your environment variables (API key)
+├── requirements.txt      # List of Python dependencies
+└── README.md             # You are here
 
 
