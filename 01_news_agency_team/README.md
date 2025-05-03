@@ -33,4 +33,10 @@ All interaction is powered by **Groq LLMs** and can be accessed via the built-in
 ```bash
 git clone https://github.com/vighneshch/agentic_ai_projects/tree/main/01_news_agency_team
 cd 01_news_agency_team
+```
+
+### 2. Create a virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
 
