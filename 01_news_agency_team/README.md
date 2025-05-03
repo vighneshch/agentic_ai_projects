@@ -1,6 +1,6 @@
 # 🧠 NYT-Worthy Article Generator using Agno Agents
 
-A multi-agent AI system built with the [Agno SDK](https://github.com/agno-agi/agno) that collaboratively researches, writes, and edits long-form, high-quality articles — tailored to meet the standards of *The New York Times*.
+A multi-agent AI system built with the [Agno](https://github.com/agno-agi/agno) that collaboratively researches, writes, and edits long-form, high-quality articles — tailored to meet the standards of *The New York Times*.
 
 ---
 
